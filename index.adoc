@@ -1,0 +1,10 @@
+---
+layout: product-family 
+permalink: index.html 
+lead: ONTAP helps you create a storage infrastructure that reduces costs, accelerates critical workloads, and protects and secures data.  
+summary: Mit ONTAP erstellen Sie eine Storage-Infrastruktur, die Kosten senkt, kritische Workloads beschleunigt und Daten schützt und sichert. 
+---
+= ONTAP Produktdokumentation
+:allow-uri-read: 
+
+
