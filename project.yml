@@ -53,13 +53,19 @@ product-family:
     summary: Schützen Sie Ihren Storage durch Array-basiertes Clustering mit synchroner
       Replizierung und sorgen Sie so für kontinuierliche Verfügbarkeit.
     tags: all, tag_data_protection
-  - title: AFF und FAS Dokumentation
+  - title: AFF A-Serie und C-Serie, FAS, All-SAN-Array und Switches
     icon: "./media/groups_line.png"
     url: https://docs.netapp.com/us-en/ontap-systems-family/
     summary: Über die Dokumentationsseite von AFF und FAS erhalten Sie Informationen
       zur Installation, Wartung und Aktualisierung Ihrer AFF und FAS Systeme sowie
       Cluster- und Storage-Switches.
     tags: all, tag_systems
+  - title: Technische Berichte von ONTAP
+    icon: "./media/icon-onprem.png"
+    url: https://docs.netapp.com/us-en/ontap-technical-reports/index.html
+    summary: Erfahren Sie mehr über die ONTAP Architektur und über die Optimierung
+      von ONTAP für spezifische Workloads und Umgebungen.
+    tags: all, tag_data_management, tag_data_protection
   - title: Cloud Volumes ONTAP
     icon: "./media/icon-cvo.png"
     url: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html
