@@ -32,8 +32,7 @@ product-family:
     icon: "./media/icon-onprem.png"
     url: https://docs.netapp.com/us-en/ontap/index.html
     summary: Implementieren und managen Sie die ONTAP 9 Datenmanagement-Software in
-      Ihrem Datacenter mithilfe der ONTAP CLI und der aktuellen Versionen von ONTAP
-      System Manager (ONTAP 9.7 und höher).
+      Ihrem Datacenter mithilfe von ONTAP System Manager und der ONTAP CLI.
     tags: all, tag_data_management, tag_data_protection
   - title: ONTAP-Automatisierung
     icon: "./media/icon-api.png"
@@ -53,12 +52,11 @@ product-family:
     summary: Schützen Sie Ihren Storage durch Array-basiertes Clustering mit synchroner
       Replizierung und sorgen Sie so für kontinuierliche Verfügbarkeit.
     tags: all, tag_data_protection
-  - title: AFF A-Serie und C-Serie, FAS, All-SAN-Array und Switches
+  - title: AFF A-Series und C-Series, FAS, All-Flash SAN Array und Switches
     icon: "./media/groups_line.png"
     url: https://docs.netapp.com/us-en/ontap-systems-family/
-    summary: Über die Dokumentationsseite von AFF und FAS erhalten Sie Informationen
-      zur Installation, Wartung und Aktualisierung Ihrer AFF und FAS Systeme sowie
-      Cluster- und Storage-Switches.
+    summary: Erfahren Sie, wie Sie Ihre AFF-, FAS- und All-Flash SAN-Array-Systeme
+      sowie Cluster- und Storage-Switches installieren, warten und aktualisieren.
     tags: all, tag_systems
   - title: Technische Berichte von ONTAP
     icon: "./media/icon-onprem.png"
