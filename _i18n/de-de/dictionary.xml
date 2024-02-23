@@ -18,7 +18,6 @@
   <block id="f3230df50ceeeafc3157bee849693d34" category="sidebar">Mit der Implementierung einer virtuellen Instanz von ONTAP wird Cloud Storage erschwinglicher, intelligenter, konform und sicher.</block>
   <block id="59dd97bfc4b53a6590c009d9ab55aa67" category="sidebar">Erfahren Sie mehr über die Events für das Event Messaging System (EMS) in ONTAP.</block>
   <block id="2aadcbf0b77f52d06244b76c0aea1a12" category="sidebar">Konfigurieren Sie ONTAP-SAN-Hosts für die NVMe-, iSCSI- und FC-Protokolle.</block>
-  <block id="2e641d75d103df9a37ad7a7a9d2e632e" category="sidebar">ONTAP System Manager Classic</block>
   <block id="e2d007a557f8e11dbba3c27363a83bd6" category="sidebar">ONTAP 9.7 und frühere Versionen verwenden ein anderes Layout für die Benutzeroberfläche von ONTAP System Manager.</block>
   <block id="99be5fa77d38c7d9e875422bad8e7925" category="sidebar">ONTAP 7-Mode Transition</block>
   <block id="21cbfb811e4dbccffe41f111d35806c8" category="sidebar">Transition von Daten von älteren 7-Mode zu modernen Clustered Storage-Plattformen</block>
@@ -36,4 +35,5 @@
   <block id="00b58e662b325b5088592ef47840159f" category="sidebar">Implementieren und managen Sie die ONTAP 9 Datenmanagement-Software in Ihrem Datacenter mithilfe von ONTAP System Manager und der ONTAP CLI.</block>
   <block id="2df876fae9458ec6daf0b2557b22c32d" category="sidebar">AFF A-Series und C-Series, FAS, All-Flash SAN Array und Switches</block>
   <block id="fd386f6a14ab83ad506ab4a919020a9f" category="sidebar">Erfahren Sie, wie Sie Ihre AFF-, FAS- und All-Flash SAN-Array-Systeme sowie Cluster- und Storage-Switches installieren, warten und aktualisieren.</block>
+  <block id="e0ef07c311c3d529bf1db8e5c324d936" category="sidebar">ONTAP System Manager (ONTAP 9.7 und früher)</block>
 </blocks>
