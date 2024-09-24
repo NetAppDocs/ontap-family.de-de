@@ -15,99 +15,86 @@ sidebar:
 product-family:
   sidebarlinks:
   - title: Alle
-    tags: all,tag_data_management,tag_automation,tag_systems,tag_data_protection,tag_data_migration
+    tags: all
     class: active
   - title: Automatisierung
-    tags: tag_automation
+    tags: automation
   - title: Datenmanagement
-    tags: tag_data_management
+    tags: management
   - title: Datenmigration
-    tags: tag_data_migration
+    tags: migration
   - title: Datensicherung
-    tags: tag_data_protection
-  - title: Systeme
-    tags: tag_systems
+    tags: protection
+  - title: Hardwaresysteme
+    tags: hardware
   tiles:
-  - title: ONTAP
+  - title: ONTAP 9 für AFF, ASA und FAS Systeme
     icon: "./media/icon-onprem.png"
     url: https://docs.netapp.com/us-en/ontap/index.html
-    summary: Implementieren und managen Sie die ONTAP 9 Datenmanagement-Software in
-      Ihrem Datacenter mithilfe von ONTAP System Manager und der ONTAP CLI.
-    tags: all, tag_data_management, tag_data_protection
-  - title: ONTAP-Automatisierung
-    icon: "./media/icon-api.png"
-    url: https://docs.netapp.com/us-en/ontap-automation/index.html
-    summary: Automatisieren Sie die Implementierung und Administration Ihrer ONTAP
-      Storage-Systeme mit der ONTAP REST API und unterstützenden Technologien.
-    tags: all, tag_automation, tag_data_management
-  - title: ONTAP-Befehle
-    icon: "./media/cli.png"
-    url: https://docs.netapp.com/us-en/ontap-cli/
-    summary: Erfahren Sie mehr über die Befehle, die Ihnen in der ONTAP-CLI zur Verfügung
-      stehen.
-    tags: all, tag_data_management
+    summary: Mit der ONTAP Software managen Sie Daten auf All-Flash FAS Systemen,
+      All-Flash-SAN-Array-Systemen und FAS Hybrid-Flash-Arrays.
+    tags: all, management, protection
+  - title: AFF, ASA und FAS Systeme
+    icon: "./media/groups_line.png"
+    url: https://docs.netapp.com/us-en/ontap-systems-family/
+    summary: Erfahren Sie, wie Sie All-Flash FAS Systeme, All-Flash-SAN-Array-Systeme
+      und FAS Hybrid-Flash-Arrays installieren, warten und aktualisieren.
+    tags: all, hardware
+  - title: ASA r2-Systeme
+    icon: "./media/groups_line.png"
+    url: https://docs.netapp.com/us-en/asa-r2/index.html
+    summary: Installieren Sie Ihr ASA r2 System und nutzen Sie ONTAP zum Datenmanagement.
+    tags: all, hardware
   - title: ONTAP MetroCluster
     icon: "./media/metrocluster.png"
     url: https://docs.netapp.com/us-en/ontap-metrocluster/
     summary: Schützen Sie Ihren Storage durch Array-basiertes Clustering mit synchroner
       Replizierung und sorgen Sie so für kontinuierliche Verfügbarkeit.
-    tags: all, tag_data_protection
-  - title: AFF A-Series und C-Series, FAS, All-Flash SAN Array und Switches
-    icon: "./media/groups_line.png"
-    url: https://docs.netapp.com/us-en/ontap-systems-family/
-    summary: Erfahren Sie, wie Sie Ihre AFF-, FAS- und All-Flash SAN-Array-Systeme
-      sowie Cluster- und Storage-Switches installieren, warten und aktualisieren.
-    tags: all, tag_systems
+    tags: all, protection
+  - title: ONTAP SAN-Host-Konfiguration
+    icon: "./media/server.png"
+    url: https://docs.netapp.com/us-en/ontap-sanhost/
+    summary: Konfigurieren Sie ONTAP-SAN-Hosts für die NVMe-, iSCSI- und FC-Protokolle.
+    tags: all, management
   - title: Technische Berichte von ONTAP
     icon: "./media/icon-onprem.png"
     url: https://docs.netapp.com/us-en/ontap-technical-reports/index.html
     summary: Erfahren Sie mehr über die ONTAP Architektur und über die Optimierung
       von ONTAP für spezifische Workloads und Umgebungen.
-    tags: all, tag_data_management, tag_data_protection
-  - title: Cloud Volumes ONTAP
-    icon: "./media/icon-cvo.png"
-    url: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html
-    summary: Mit der Implementierung einer virtuellen Instanz von ONTAP wird Cloud
-      Storage erschwinglicher, intelligenter, konform und sicher.
-    tags: all, tag_data_management, tag_data_protection
+    tags: all, management, protection
+  - title: ONTAP-Befehle
+    icon: "./media/cli.png"
+    url: https://docs.netapp.com/us-en/ontap-cli/
+    summary: Erfahren Sie mehr über die Befehle, die Ihnen in der ONTAP-CLI zur Verfügung
+      stehen.
+    tags: all, management
   - title: ONTAP EMS-Referenz
     icon: "./media/cli.png"
-    url: https://docs.netapp.com/us-en/ontap-ems/index.html
+    url: https://docs.netapp.com/us-en/ontap-ems-9141/
     summary: Erfahren Sie mehr über die Events für das Event Messaging System (EMS)
       in ONTAP.
-    tags: all, tag_data_management
-  - title: ONTAP SAN-Host-Konfiguration
-    icon: "./media/server.png"
-    url: https://docs.netapp.com/us-en/ontap-sanhost/
-    summary: Konfigurieren Sie ONTAP-SAN-Hosts für die NVMe-, iSCSI- und FC-Protokolle.
-    tags: all, tag_data_management
-  - title: ONTAP System Manager (ONTAP 9.7 und früher)
-    icon: "./media/config_line.png"
-    url: https://docs.netapp.com/us-en/ontap-system-manager-classic/
-    summary: ONTAP 9.7 und frühere Versionen verwenden ein anderes Layout für die
-      Benutzeroberfläche von ONTAP System Manager.
-    tags: all, tag_data_management
-  - title: ONTAP 7-Mode Transition
-    icon: "./media/transition-tools.png"
-    url: https://docs.netapp.com/us-en/ontap-7mode-transition/
-    summary: Transition von Daten von älteren 7-Mode zu modernen Clustered Storage-Plattformen
-    tags: all, tag_data_migration
-  - title: ONTAP Import fremder LUNs
-    icon: "./media/transition-tools.png"
-    url: https://docs.netapp.com/us-en/ontap-fli/
-    summary: Migration von LUNs von Arrays anderer Hersteller und 7-Mode Systemen
-      auf modernen NetApp Storage-Systemen
-    tags: all, tag_data_migration
+    tags: all, management
+  - title: ONTAP-Automatisierung
+    icon: "./media/icon-api.png"
+    url: https://docs.netapp.com/us-en/ontap-automation/index.html
+    summary: Automatisieren Sie die Implementierung und Administration Ihrer ONTAP
+      Storage-Systeme mit der ONTAP REST API und unterstützenden Technologien.
+    tags: all, automation, management
+  - title: Cloud Volumes ONTAP
+    icon: "./media/icon-cvo.png"
+    url: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/index.html
+    summary: Mit der Implementierung einer virtuellen Instanz von ONTAP wird Cloud
+      Storage erschwinglicher, intelligenter, konform und sicher.
+    tags: all, management, protection
   - title: ONTAP Select
     icon: "./media/server.png"
     url: https://docs.netapp.com/us-en/ontap-select/
-    summary: Implementierung von ONTAP als softwaredefinierte Storage-Appliance auf
-      einer Vielzahl von Standard-Hardwareservern, auf denen VMware ESXi- oder KVM-Hypervisoren
-      ausgeführt werden.
-    tags: all, tag_data_management, tag_data_protection
-  - title: ONTAP FlexArray
-    icon: "./media/cli.png"
-    url: https://docs.netapp.com/us-en/ontap-flexarray/
-    summary: Nutzen Sie Array-LUNs, um Arrays der E-Series und anderer Anbieter als
-      durch ONTAP servierten Storage vorzustellen.
-    tags: all, tag_data_management
+    summary: Implementieren Sie ONTAP als softwaredefinierte Storage Appliance auf
+      verschiedenen Standard-Hardwaresystemen mit VMware ESXi Hypervisor.
+    tags: all, management, protection
+  - title: ONTAP Import fremder LUNs
+    icon: "./media/transition-tools.png"
+    url: https://docs.netapp.com/us-en/ontap-fli/
+    summary: Migration von LUNs von Arrays anderer Anbieter und 7-Mode Systemen zu
+      modernem NetApp Storage
+    tags: all, migration
