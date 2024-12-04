@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="e21da1a4879f106c0966dc2fe45126c0" category="summary">Mit ONTAP erstellen Sie eine Storage-Infrastruktur, die Kosten senkt, kritische Workloads beschleunigt und Daten schützt und sichert.</block>
   <block id="274bc582ca884fc158ea9ac9f79f9067" category="doc">ONTAP Produktdokumentation</block>
   <block id="b1c94ca2fbc3e78fc30069c8d0f01680" category="sidebar">Alle</block>
   <block id="caea8340e2d186a540518d08602aa065" category="sidebar">Automatisierung</block>
@@ -32,4 +31,5 @@
   <block id="942e7b614fd14bfa73ca3ead7a074727" category="sidebar">Installieren Sie Ihr ASA r2 System und nutzen Sie ONTAP zum Datenmanagement.</block>
   <block id="8010c7fea7ec3a053ce59d083aa16df6" category="sidebar">Implementieren Sie ONTAP als softwaredefinierte Storage Appliance auf verschiedenen Standard-Hardwaresystemen mit VMware ESXi Hypervisor.</block>
   <block id="b2934159aedd460ca247425783b1dc65" category="sidebar">Migration von LUNs von Arrays anderer Anbieter und 7-Mode Systemen zu modernem NetApp Storage</block>
+  <block id="6b5b170d11f85aa7605678eed04a62cf" category="sidebar">Mit ONTAP erstellen Sie eine Storage-Infrastruktur, die Kosten senkt, kritische Workloads beschleunigt und Daten schützt und sichert.</block>
 </blocks>
